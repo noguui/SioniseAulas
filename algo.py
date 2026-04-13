@@ -20,3 +20,4 @@ for i in range(30):
 
 print("Lista Original:", original)
 print("Lista Modificada:", modificada)
+#terminei
