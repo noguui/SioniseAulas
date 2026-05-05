@@ -5,4 +5,6 @@ pessoa = {
 }
 print(pessoa)
 
+for chave, valor in pessoa.items():
+    print(f"{chave} é {valor}")
 
