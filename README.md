@@ -1,0 +1,1 @@
+“Cada linha de código é mais do que instrução: é a construção silenciosa de ideias capazes de transformar problemas em soluções, sonhos em projetos e criatividade em inovação que ultrapassa limites e conecta o futuro ao presente.”
