@@ -64,3 +64,27 @@ while True:
         else:
             print(f"fez algo errado")
 
+def comprar_album():
+    print("1 - Capa mole - R$ 15,00")
+    print("2 - Capa dura - R$ 25,00")
+    print("3 - Capa gold - R$ 40,00")
+
+    qual_album = int(input("Qual opção você deseja? "))
+
+    if qual_album == 1:
+        quantidade = int(input("Quantos? "))
+        total = quantidade * 15
+        print(f"Você comprou {quantidade} álbum(ns) e o total deu R$ {total},00")
+
+    elif qual_album == 2:
+        quantidade = int(input("Quantos? "))
+        total = quantidade * 25
+        print(f"Você comprou {quantidade} álbum(ns) e o total deu R$ {total},00")
+
+    elif qual_album == 3:
+        quantidade = int(input("Quantos? "))
+        total = quantidade * 40
+        print(f"Você comprou {quantidade} álbum(ns) e o total deu R$ {total},00")
+
+    else:
+        print("Opção inválida")
