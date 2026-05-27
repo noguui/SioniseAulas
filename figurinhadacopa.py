@@ -6,10 +6,24 @@ def comprar_figurinhas():
        print(f"voce comprou {quantidade} que o total deu R$ {total},00")
 
 def comprar_album():
+       print("1 - Capa mole - R$ 15,00")
+       print("2 - Capa dura - R$ 25,00")
+       print("3 - Capa gold - R$ 40,00")
        print("olá , quantos albuns vc vai querer?")
+       qual_album = input("qual opçao vc deseja? ")
        print("cada pacote custa R$ 15,00")
        quantidade = int(input("quantos? "))
        total = quantidade * 15
+       print(f"voce comprou {quantidade} que o total deu R$ {total},00")
+
+       elif qual_album == 2:
+       quantidade = int(input("quantos? "))
+       total = quantidade * 25
+       print(f"voce comprou {quantidade} que o total deu R$ {total},00")
+
+       if qual_album == 3:
+               quantidade = int(input("quantos? "))
+       total = quantidade * 40
        print(f"voce comprou {quantidade} que o total deu R$ {total},00")
 
 def entrar_grupo():
