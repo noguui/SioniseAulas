@@ -26,6 +26,7 @@ def comprar_album():
                      print(f"n temos essa quantidade somente 435 foram adicionados que deu R$ {valor},00 ")
        elif qual_album == 2:
               quantidade = int(input("quantos? "))
+              total = quantidade * 25
               if quantidade < 300:
                      print(f"voce comprou {quantidade} do modelo capa dura que o total deu R$ {total},00")
               else:
@@ -33,6 +34,7 @@ def comprar_album():
                      print(f"n temos essa quantidade somente 300 foram adicionados que deu R$ {valor},00 ")
        elif qual_album == 3:
               quantidade = int(input("quantos? "))
+              total = quantidade * 40
               if quantidade < 500:
                      print(f"voce comprou {quantidade} do modelo gold que o total deu R$ {total},00")
               else:
