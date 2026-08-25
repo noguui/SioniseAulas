@@ -37,7 +37,7 @@ def comprar_album():
               total = quantidade * 40
               if quantidade < 500:
                      print(f"voce comprou {quantidade} do modelo gold que o total deu R$ {total},00")
-              else:
+              else: 
                      valor = 500 * 40
                      print(f"n temos essa quantidade somente 500 foram adicionados que deu R$ {valor},00 ")
        else:
